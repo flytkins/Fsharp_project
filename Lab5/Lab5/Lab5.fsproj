@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<UseWindowsForms>true</UseWindowsForms>
+		<EnableWindowsTargeting>true</EnableWindowsTargeting>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Include="Form2.fs" />
+		<Compile Include="Form1.fs" />
+		<Compile Include="Ex10.fs" />
+		<Compile Include="Ex9.fs" />
+		<Compile Include="Ex8.fs" />
+		<Compile Include="Ex7.fs" />
+		<Compile Include="Ex6.fs" />
+		<Compile Include="Ex5.fs" />
+		<Content Include="Images\image3.png" />
+		<Content Include="Images\image2.png" />
+		<Content Include="Images\image1.png" />
+		<Compile Include="Ex4.fs" />
+		<Compile Include="Ex3.fs" />
+		<Compile Include="Ex2.fs" />
+		<Compile Include="MainForm.fs" />
+		<Compile Include="Program.fs" />
+	</ItemGroup>
+
+</Project>
